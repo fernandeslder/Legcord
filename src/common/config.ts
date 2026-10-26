@@ -78,6 +78,7 @@ const defaults: Settings = {
     proxyPacScript: "",
     customIcon: join(import.meta.dirname, "../", "/assets/desktop.png"),
     smoothScroll: true,
+    sidebarCollapsed: false,
     autoScroll: false,
     useSystemCssEditor: false,
     extendedPluginAbilities: false,

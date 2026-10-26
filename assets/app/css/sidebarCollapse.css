@@ -1,0 +1,77 @@
+html.legcord-sidebar-collapsed [data-legcord-sidebar] {
+    /* biome-ignore lint/complexity/noImportantStyles: must beat Discord's own sidebar width rules */
+    width: var(--legcord-rail-width, 72px) !important;
+    /* biome-ignore lint/complexity/noImportantStyles: must beat Discord's own sidebar width rules */
+    min-width: var(--legcord-rail-width, 72px) !important;
+}
+
+html.legcord-sidebar-collapsed [data-legcord-sidebar-list],
+html.legcord-sidebar-collapsed [data-legcord-sidebar-handle] {
+    /* biome-ignore lint/complexity/noImportantStyles: must beat Discord's own display rules */
+    display: none !important;
+}
+
+#legcord-sidebar-toggle {
+    position: absolute;
+    bottom: 64px;
+    left: 0;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 56px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background: transparent;
+    color: inherit;
+    cursor: pointer;
+    -webkit-app-region: no-drag;
+}
+
+#legcord-sidebar-toggle .legcord-sidebar-toggle-ball {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background: var(--background-primary, #313338);
+    color: var(--interactive-normal, #b5bac1);
+    transition:
+        border-radius 0.15s ease,
+        background-color 0.15s ease,
+        color 0.15s ease;
+}
+
+#legcord-sidebar-toggle:hover .legcord-sidebar-toggle-ball,
+#legcord-sidebar-toggle:focus-visible .legcord-sidebar-toggle-ball {
+    border-radius: 16px;
+    background: var(--brand-experiment, #5865f2);
+    color: var(--white-500, #fff);
+}
+
+#legcord-sidebar-toggle:active .legcord-sidebar-toggle-ball {
+    transform: translateY(1px);
+}
+
+#legcord-sidebar-toggle:focus-visible {
+    outline: none;
+}
+
+#legcord-sidebar-toggle:focus-visible .legcord-sidebar-toggle-ball {
+    box-shadow: 0 0 0 2px var(--brand-500, #5865f2);
+}
+
+#legcord-sidebar-toggle .legcord-sidebar-toggle-icon-expand {
+    display: none;
+}
+
+html.legcord-sidebar-collapsed #legcord-sidebar-toggle .legcord-sidebar-toggle-icon-expand {
+    display: block;
+}
+
+html.legcord-sidebar-collapsed #legcord-sidebar-toggle .legcord-sidebar-toggle-icon-collapse {
+    display: none;
+}

@@ -75,6 +75,8 @@ export interface Settings {
     doneSetup: boolean;
     spellcheckLanguage: string[];
     smoothScroll: boolean;
+    /** Whether the channel sidebar is collapsed into the server rail. */
+    sidebarCollapsed: boolean;
     bounceOnPing: boolean;
     popoutPiP: boolean;
     sleepInBackground: boolean;
