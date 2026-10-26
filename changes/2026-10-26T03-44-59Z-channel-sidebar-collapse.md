@@ -2,12 +2,18 @@
 
 | | |
 |---|---|
-| **Date** | 2026-10-26 00:45:10 -0300 (ADT) |
+| **Instant (UTC)** | `2026-10-26T03:44:59Z` |
 | **Repository** | [fernandeslder/Legcord](https://github.com/fernandeslder/Legcord) (personal fork of [Legcord/Legcord](https://github.com/Legcord/Legcord)) |
 | **Branch** | `dev` |
-| **Commit** | `96c5914` — full: `96c59146d6b497057455ba57a15b92b431fb9419` |
+| **Commit** | `96c5914` — `96c59146d6b497057455ba57a15b92b431fb9419`, committed `2026-10-26T03:44:59Z` |
+| **Documentation commit** | `5d9d0f2` — `5d9d0f2a1d58445dff1fed98583b571d19900d24`, committed `2026-10-26T03:45:31Z` |
 | **Base commit** | `a5f0a9c` (`metainfo: add entry for v1.3.1`) |
 | **Scope** | Fork-only feature, not upstreamed |
+
+All timestamps in this file are exact instants in UTC (ISO 8601 with an explicit
+`Z` offset), read from git commit metadata — they do not depend on the local
+timezone of the machine that authored or reads this file. The timestamp in this
+file's name is the feature commit's instant.
 
 ## Summary
 

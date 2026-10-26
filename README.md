@@ -4,7 +4,8 @@
 > [!NOTE]
 > This is a personal fork of [Legcord](https://github.com/Legcord/Legcord).
 > Every change made in this fork is documented in the [`changes/`](./changes)
-> directory — one Markdown file per change, with its date/time and commit IDs.
+> directory — one Markdown file per change, with an exact UTC timestamp
+> (ISO 8601, explicit `Z`) in both the file name and the document, plus commit IDs.
 
 # Features
 
