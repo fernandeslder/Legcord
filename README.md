@@ -1,6 +1,11 @@
 
 ![Legcord](https://github.com/user-attachments/assets/f7b007d4-44fa-4c88-96e4-0a448b568b5d)
 
+> [!NOTE]
+> This is a personal fork of [Legcord](https://github.com/Legcord/Legcord).
+> Every change made in this fork is documented in the [`changes/`](./changes)
+> directory — one Markdown file per change, with its date/time and commit IDs.
+
 # Features
 
 - **Standalone client**
